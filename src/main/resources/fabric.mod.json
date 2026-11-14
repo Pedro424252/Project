@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "pingmod",
+  "version": "${version}",
+  "name": "Ping Mod",
+  "description": "Giden paketleri geciktirerek pingi yapay olarak artirir.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.pingmod.PingMod"] },
+  "mixins": ["pingmod.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
