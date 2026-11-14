@@ -1,0 +1,5 @@
+Yerelde derleme (Java 21 + Gradle 9.2.1 gerekir):
+  gradle build
+Jar: build/libs/pingmod-1.0.0.jar  (-sources olmayan dosya)
+
+Kurulumsuz derleme: klasoru bir GitHub reposuna yukle -> Actions sekmesi -> build -> Artifacts -> pingmod-jar
